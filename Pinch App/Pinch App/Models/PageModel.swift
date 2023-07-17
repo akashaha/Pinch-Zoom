@@ -6,13 +6,13 @@
 //
 
 import Foundation
-struct Page : Identifiable {
-    let id : Int
-    let imageName : String
+struct Page: Identifiable {
+  let id: Int
+  let imageName: String
 }
 
 extension Page {
-    var thumbnailName : String{
-        return "thumb-" + imageName
-    }
+  var thumbnailName: String {
+    return "thumb-" + imageName
+  }
 }
